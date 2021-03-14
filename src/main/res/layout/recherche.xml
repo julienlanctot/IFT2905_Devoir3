@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E6E6"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/btnFilter"
+            android:layout_width="150sp"
+            android:layout_height="30sp"
+
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#2D9BF0"
+            android:padding="0dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="Ajout de filtre"
+            android:textAllCaps="false"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Recherche"
+            android:textSize="19sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnUdem"
+            tools:text="recherche" />
+
+        <ImageButton
+            android:id="@+id/btnMenu"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="28dp"
+            android:background="#E6E6E6"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/_3f948216ff912389efec6bc9ffe761c" />
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="28dp"
+            android:background="#E6E6E6"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/iconfinder_home_house_126572" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="70dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnFilter" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName3"
+            style="@style/Widget.AppCompat.EditText"
+            android:layout_width="0dp"
+            android:layout_height="50sp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/memo_border"
+            android:backgroundTintMode="add"
+            android:drawableTint="#FFFFFF"
+            android:editable="true"
+            android:ems="10"
+            android:inputType="text"
+            android:letterSpacing="0"
+            android:lineSpacingExtra="8sp"
+            android:outlineAmbientShadowColor="#3E2121"
+            android:outlineProvider="paddedBounds"
+            android:paddingStart="50dp"
+            android:text="Tapez ce que vous cherchez..."
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            tools:text="boxSearchKeyword" />
+
+        <ImageView
+            android:id="@+id/btnUdem"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="24dp"
+            android:padding="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/_8fb410b7f050340f2409302d88d6baa_jpeg" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:padding="5dp"
+            app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName3"
+            app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName3"
+            app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName3"
+            app:srcCompat="@drawable/iconfinder_search_172546" />
+
+        <ImageButton
+            android:id="@+id/btnMyProfil"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="28dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnMenu"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <ImageButton
+            android:id="@+id/btnSearch"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginStart="40dp"
+            android:layout_marginBottom="16dp"
+            android:background="#E3E3E3"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/iconfinder_search_172546" />
+
+        <ImageButton
+            android:id="@+id/btnFavorite3"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginBottom="16dp"
+            android:background="#E3E3E3"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/iconfinder_favorite_heart_like_love_1814104" />
+
+        <ImageButton
+            android:id="@+id/btnChat"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="16dp"
+            android:background="#E3E3E3"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/iconfinder_message_misc_1276855" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

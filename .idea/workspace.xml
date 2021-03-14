@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="78d76f37-759e-43b2-b542-3a716b0802b2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/techtown/filtre/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/techtown/filtre/FilterActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/techtown/filtre/FilterAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/techtown/recherche/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/techtown/recherche/PersonAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/techtown/recherche/RechercheActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1pi9LbuwdYINQpaK1fKz77nSjsi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lcmqh\Documents\Dev3\IFT2905_Devoir3\src\main\java\org\techtown\recherche" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lcmqh\Documents\Dev3\IFT2905_Devoir3\src\main" />
+      <recent name="C:\Users\lcmqh\Documents\Dev3\IFT2905_Devoir3\src\main\java\org\techtown\filtre" />
+      <recent name="C:\Users\lcmqh\Documents\Dev3\IFT2905_Devoir3\src\main\java\org\techtown\recherche" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78d76f37-759e-43b2-b542-3a716b0802b2" name="Default Changelist" comment="" />
+      <created>1615654988402</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615654988402</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2606" y="211" key="FileChooserDialogImpl" timestamp="1615654976675">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040/-2560.0.1280.760@0.0.1536.824" timestamp="1615654900896" />
+    <state x="2606" y="211" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040/-2560.0.1280.760@1920.0.1920.1040" timestamp="1615654976675" />
+  </component>
+</project>
