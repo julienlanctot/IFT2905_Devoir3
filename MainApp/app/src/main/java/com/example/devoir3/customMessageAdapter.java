@@ -1,6 +1,7 @@
 package com.example.devoir3;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -8,6 +9,11 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.navigation.NavController;
+import androidx.navigation.NavDirections;
+import androidx.navigation.Navigation;
+import androidx.navigation.fragment.NavHostFragment;
 
 import java.util.ArrayList;
 
@@ -44,6 +50,12 @@ public class customMessageAdapter extends ArrayAdapter<Messages> {
             @Override
             public void onClick(View v) {
                 //TODO: Make redirection to message
+
+                Intent intent = new Intent(getContext(), MessageView.class);
+                c.startActivity(intent);
+
+
+                //Navigation.findNavController(v).navigate(R.id.action_messageList_to_connexion2);
                 Toast.makeText(c, "hello", Toast.LENGTH_LONG).show();
             }
         });
