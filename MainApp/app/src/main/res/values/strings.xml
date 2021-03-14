@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Devoir 3</string>
+    <string name="email">Email</string>
+    <string name="mdp">Mot de passe</string>
+    <string name="Connexion">Connexion</string>
+    <string name="exempleemail">prenom.nom@udem.ca</string>
+    <string name="Succes">Succès!</string>
+    <string name="Echec">Mot de passe incorrect</string>
+    <string name="NoExist">Pas d\'usager associé au email</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Inscription">Inscription</string>
+    <string name="mdp_confirmer">Confirmer le mot de passe</string>
+</resources>
