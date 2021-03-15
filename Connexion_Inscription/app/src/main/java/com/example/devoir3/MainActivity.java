@@ -4,7 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import android.app.FragmentTransaction;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.text.TextUtils;
+import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -14,10 +17,15 @@ import java.util.HashMap;
 public class MainActivity extends AppCompatActivity {
 
     Button connexion;
+    Button confirm_inscription;
     TextView email_textview;
     TextView password_textview;
     TextView result;
     TextView inscription;
+    TextView result_inscription;
+    TextView email_inscription;
+    TextView password_inscription;
+    TextView confirm_password;
     HashMap<String, String> test = new HashMap<String, String>();
 
     @Override
@@ -30,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         password_textview = findViewById(R.id.Password);
         result = findViewById(R.id.result);
         inscription = findViewById(R.id.inscription);
+
 
         connexion.setOnClickListener(connexion_listener);
         inscription.setOnClickListener(inscription_listener);
@@ -63,8 +72,39 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onClick(View v) {
             setContentView(R.layout.inscription);
-        }
+            confirm_inscription = findViewById(R.id.conifrmerInscription);
+            result_inscription = findViewById(R.id.message_inscription);
+            email_inscription = findViewById(R.id.email_input);
+            password_inscription = findViewById(R.id.motdepasseInscription);
+            confirm_password = findViewById(R.id.motdepasse_confirmer2);
 
+            confirm_inscription.setOnClickListener(inscription_confirm);
+
+        }
     };
+
+    View.OnClickListener inscription_confirm = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+
+            if(!isValidEmail(email_inscription.getText().toString()))
+            {
+                result_inscription.setVisibility(View.VISIBLE);
+                result_inscription.setTextColor(getResources().getColor(R.color.red));
+                result_inscription.setText("Format d'email invalide");
+            }
+            else if(!password_inscription.getText().toString().equals(confirm_password.getText().toString()))
+            {
+                result_inscription.setVisibility(View.VISIBLE);
+                result_inscription.setTextColor(getResources().getColor(R.color.red));
+                result_inscription.setText("Les 2 mdp doivent etre identiques");
+            }
+        }
+    };
+    public static boolean isValidEmail(CharSequence target) {
+        return (!TextUtils.isEmpty(target) && Patterns.EMAIL_ADDRESS.matcher(target).matches());
+    }
+
+
 
 }
