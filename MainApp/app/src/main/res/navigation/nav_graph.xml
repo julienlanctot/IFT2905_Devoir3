@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/messageList">
+
+    <activity
+        android:id="@+id/messageList"
+        android:name="com.example.devoir3.MessageList"
+        android:label="message_list"
+        tools:layout="@layout/message_list" >
+        <action
+            android:id="@+id/action_messageList_to_connexion2"
+            app:destination="@id/message_viewer" />
+    </activity>
+    <activity
+        android:id="@+id/message_viewer"
+        android:name="com.example.devoir3.Connexion"
+        android:label="message_viewer"
+        tools:layout="@layout/message_viewer" />
+</navigation>
