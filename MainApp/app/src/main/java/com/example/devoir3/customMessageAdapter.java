@@ -53,10 +53,7 @@ public class customMessageAdapter extends ArrayAdapter<Messages> {
 
                 Intent intent = new Intent(getContext(), MessageView.class);
                 c.startActivity(intent);
-
-
-                //Navigation.findNavController(v).navigate(R.id.action_messageList_to_connexion2);
-                Toast.makeText(c, "hello", Toast.LENGTH_LONG).show();
+                //Toast.makeText(c, "hello", Toast.LENGTH_LONG).show();
             }
         });
         //tvHome.setText(user.hometown);
