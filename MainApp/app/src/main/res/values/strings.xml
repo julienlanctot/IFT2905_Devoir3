@@ -17,4 +17,9 @@
     <string name="message2">Bonjour</string>
     <string name="message3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare ac nisi at vehicula. Duis posuere eros a libero consectetur laoreet vitae aliquam tellus. Duis ut malesuada elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare ac nisi at vehicula. Duis posuere eros a libero consectetur laoreet vitae aliquam tellus. Duis ut malesuada elit.</string>
     <string name="message4">Nulla facilisi. Ut placerat augue lacus, sit amet vulputate justo elementum ut. </string>
+
+    <string name="app_name">user_profile</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>
