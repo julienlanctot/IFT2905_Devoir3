@@ -40,29 +40,21 @@ public class customMessageAdapter extends ArrayAdapter<Messages> {
         // Lookup view for data population
         TextView username = (TextView) convertView.findViewById(R.id.username);
         TextView lastText = (TextView) convertView.findViewById(R.id.lastText);
+        TextView date = (TextView) convertView.findViewById(R.id.date);
         ImageView img = (ImageView) convertView.findViewById(R.id.message_image);
         // Populate the data into the template view using the data object
         username.setText(message.user);
         lastText.setText(message.lastText);
+        date.setText(message.date);
         img.setImageResource(R.drawable.profile);
 
         convertView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //TODO: Make redirection to message
-
                 Intent intent = new Intent(getContext(), MessageView.class);
                 c.startActivity(intent);
-                //Toast.makeText(c, "hello", Toast.LENGTH_LONG).show();
             }
         });
-        //tvHome.setText(user.hometown);
-        // Return the completed view to render on screen
-
-
-        
-
-
         return convertView;
     }
 }

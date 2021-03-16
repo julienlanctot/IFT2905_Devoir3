@@ -7,12 +7,11 @@ public class Messages {
     public String date;
     public String img;
 
-    public Messages(String user, String lastText, String date, String img)
+    public Messages(String user, String lastText, String date)
     {
         this.user = user;
         this.lastText = lastText;
         this.date = date;
-        this.img = img;
     }
 
 }

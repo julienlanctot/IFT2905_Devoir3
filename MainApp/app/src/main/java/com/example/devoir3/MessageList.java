@@ -20,12 +20,9 @@ public class MessageList extends AppCompatActivity {
 
         ArrayList<Messages> list = new ArrayList<>();
 
-        list.add(new Messages("Pablo", "Hello dear", "Hier à 3h00", "yoloswag"));
-        list.add(new Messages("Pablo", "Hello dear", "Hier à 3h00", "yoloswag"));
-        list.add(new Messages("Pablo", "Hello dear", "Hier à 3h00", "yoloswag"));
+        list.add(new Messages("Pablo", getResources().getString(R.string.message3), "Il y a 5 min"));
+        list.add(new Messages("Maya", getResources().getString(R.string.message4), "Hier à 3h00"));
 
         view.setAdapter(new customMessageAdapter(this,list));
-
-
     }
 }

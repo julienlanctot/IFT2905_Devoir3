@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:id="@+id/message_view"
-    android:background="@color/light_gray"
+    android:background="@color/lightgray"
     android:paddingTop="5dp"
     android:paddingBottom="5dp"
     android:layout_height="wrap_content" >
@@ -16,8 +16,6 @@
         android:visibility="visible"
         android:layout_marginLeft="-10dp"
         tools:srcCompat="@drawable/profile" />
-
-
 
     <RelativeLayout
         android:layout_width="wrap_content"
@@ -37,6 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="5"
             android:layout_centerVertical="true"
+            android:maxLength="30"
             android:text="lastText" />
 
     </RelativeLayout>
