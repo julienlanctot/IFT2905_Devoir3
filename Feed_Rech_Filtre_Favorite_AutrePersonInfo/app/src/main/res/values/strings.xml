@@ -1,4 +1,25 @@
 <resources>
     <string name="app_name">My Application2</string>
     <string name="filtre">Filtre</string>
+    <string name="apply_filter">Applique le filtre</string>
+    <string name="add_filter">Ajout de filtre</string>
+    <string name="check">Cochez ce que vous voulez afficher dans la recherche</string>
+    <string name="friend">Amis</string>
+
+    <string name="name">Name</string>
+    <string name="description">description</string>
+    <string name="commentlist">Commentaire :</string>
+    <string name="clic_to_show">Cliquer pour afficher</string>
+    <string name="feed">Feed</string>
+    <string name="write_your_post">Écrire votre message</string>
+    <string name="send">Envoyer</string>
+    <string name="type_to_search">Tapez ce que vous cherchez&#8230;</string>
+    <string name="search">Recherche</string>
+    <string name="friend_request">Demande d'ami</string>
+    <string name="profile">Profil</string>
+    <string name="contact_list">Liste de contacts : </string>
+    <string name="interests">Intérêts : </string>
+    <string name="cours">Cours</string>
+    <string name="about">À propos de moi</string>
+    <string name="send_dm">Envoyer un message privé</string>
 </resources>

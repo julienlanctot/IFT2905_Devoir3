@@ -30,7 +30,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="100dp"
                     android:layout_marginTop="8dp"
-                    android:text="Name"
+                    android:text="@string/name"
                     android:textColor="#1A1A1A"
                     android:textSize="14sp"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -45,7 +45,7 @@
                     android:layout_marginStart="100dp"
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="16dp"
-                    android:text="description"
+                    android:text="@string/description"
                     android:textColor="#979797"
                     android:textSize="12sp"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -96,8 +96,7 @@
                 android:id="@+id/textView6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="TextView" />
+                android:layout_weight="1" />
 
         </LinearLayout>
 
@@ -119,7 +118,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:text="Commentaire :"
+                android:text="@string/commentlist"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -129,7 +128,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="24dp"
-                android:text="Clicker pour afficher"
+                android:text="@string/clic_to_show"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />

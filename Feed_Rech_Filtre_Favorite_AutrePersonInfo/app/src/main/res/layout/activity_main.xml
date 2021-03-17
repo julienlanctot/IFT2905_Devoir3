@@ -68,12 +68,12 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="16dp"
-                        android:text="Feed"
+                        android:text="@string/feed"
                         android:textSize="19sp"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/imageButton"
-                        tools:text="feed" />
+                        tools:text="@string/feed" />
 
                     <ImageButton
                         android:id="@+id/btnMenu2"
@@ -110,7 +110,7 @@
                         android:backgroundTint="#FFFFFF"
                         android:ems="10"
                         android:inputType="textPersonName"
-                        android:text="Écrire votre poste"
+                        android:text="@string/write_your_post"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/textView5" />
@@ -121,7 +121,7 @@
                         android:layout_height="30dp"
                         android:layout_marginEnd="8dp"
                         android:backgroundTint="#2D9BF0"
-                        android:text="Envoyer"
+                        android:text="@string/send"
                         android:textColor="@color/white"
                         android:textSize="8sp"
                         app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName"

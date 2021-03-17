@@ -33,7 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="Profil"
+        android:text="@string/profile"
         android:textSize="19sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -87,7 +87,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="25dp"
-                android:text="Liste de contacts :"
+                android:text="@string/contact_list"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textPAInterets" />
 
@@ -97,7 +97,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="25dp"
-                android:text="Interêts :"
+                android:text="@string/interests"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textPACours" />
 
@@ -107,7 +107,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="25dp"
-                android:text="Cours"
+                android:text="@string/cours"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textPAPropos" />
 
@@ -127,7 +127,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="32dp"
-                android:text="Name"
+                android:text="@string/name"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView2" />
@@ -138,7 +138,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="32dp"
-                android:text="A propos de moi"
+                android:text="@string/about"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textPAName" />
 
@@ -150,7 +150,7 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="10dp"
                 android:backgroundTint="#2D9BF0"
-                android:text="Demand d'ami"
+                android:text="@string/friend_request"
                 android:textAllCaps="false"
                 android:textColor="#ffffff"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -165,7 +165,7 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="10dp"
                 android:backgroundTint="#2D9BF0"
-                android:text="Envoyer message privé"
+                android:text="@string/send_dm"
                 android:textAllCaps="false"
                 android:textColor="#ffffff"
                 app:layout_constraintBottom_toBottomOf="parent"

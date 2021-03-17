@@ -48,7 +48,7 @@
                         android:id="@+id/textView"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Name"
+                        android:text="@string/name"
                         android:textColor="#1A1A1A"
                         android:textSize="14sp"
                         tools:text="name" />
@@ -57,7 +57,7 @@
                         android:id="@+id/textView2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="description"
+                        android:text="@string/description"
                         android:textColor="#979797"
                         android:textSize="12sp"
                         tools:text="description" />
@@ -76,7 +76,7 @@
                     android:paddingTop="0dp"
                     android:paddingRight="0dp"
                     android:paddingBottom="0dp"
-                    android:text="Demande d'ami"
+                    android:text="@string/friend_request"
                     android:textAllCaps="false"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent" />

@@ -84,7 +84,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="Cochez ce que vous voulez afficher dans la recherche"
+            android:text="@string/check"
             android:textColor="#000000"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -105,14 +105,14 @@
             android:paddingTop="0dp"
             android:paddingRight="0dp"
             android:paddingBottom="0dp"
-            android:text="Appliquer filtre"
+            android:text="@string/apply_filter"
             android:textAllCaps="false"
             android:textColor="#ffffff"
             app:cornerRadius="3sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            tools:text="appliquer_filtre" />
+            tools:text="@string/apply_filter" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

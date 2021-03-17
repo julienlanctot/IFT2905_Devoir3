@@ -39,7 +39,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:padding="10sp"
-                        android:text="Name"
+                        android:text="@string/name"
                         android:textAlignment="viewStart"
                         android:textColor="#1A1A1A"
                         android:textSize="14sp"
