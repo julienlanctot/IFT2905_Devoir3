@@ -36,6 +36,10 @@ dependencies {
     implementation 'androidx.navigation:navigation-fragment:2.3.2'
     implementation 'androidx.navigation:navigation-ui:2.3.2'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation files('libs\\tokenautocomplete-3.0.2.jar')
+    implementation fileTree(dir: 'C:\\Users\\Julien\\Desktop\\Ecole UDEM\\HIVER 2021\\IFT2905 Interface Personne Machine\\TP3\\Devoir3_Julien_Connexion\\app\\libs', include: ['*.aar', '*.jar'], exclude: [])
+    implementation files('libs\\tokenautocomplete-3.0.2.jar')
+    implementation files('C:\\Users\\Julien\\Desktop\\Ecole UDEM\\HIVER 2021\\IFT2905 Interface Personne Machine\\TP3\\Devoir3_Julien_Connexion\\app\\libs\\tokenautocomplete-3.0.2.jar')
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'

@@ -1,17 +1,24 @@
 package com.example.devoir3;
 
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
+import android.app.Activity;
 import android.app.FragmentTransaction;
+import android.content.Context;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.AttributeSet;
 import android.util.Patterns;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.io.Serializable;
 import java.util.HashMap;
 
 public class MainActivity extends AppCompatActivity {
@@ -75,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
             confirm_inscription = findViewById(R.id.conifrmerInscription);
             result_inscription = findViewById(R.id.message_inscription);
             email_inscription = findViewById(R.id.email_input);
-            password_inscription = findViewById(R.id.motdepasseInscription);
+            password_inscription = findViewById(R.id.motdepasseInscription2);
             confirm_password = findViewById(R.id.motdepasse_confirmer2);
 
             confirm_inscription.setOnClickListener(inscription_confirm);
@@ -97,13 +104,20 @@ public class MainActivity extends AppCompatActivity {
             {
                 result_inscription.setVisibility(View.VISIBLE);
                 result_inscription.setTextColor(getResources().getColor(R.color.red));
-                result_inscription.setText("Les 2 mdp doivent etre identiques");
+                result_inscription.setText("Les 2 mots de passe doivent être identiques");
+            }
+            else{
+                setContentView(R.layout.inscription_interets);
             }
         }
     };
     public static boolean isValidEmail(CharSequence target) {
         return (!TextUtils.isEmpty(target) && Patterns.EMAIL_ADDRESS.matcher(target).matches());
     }
+
+
+
+
 
 
 
