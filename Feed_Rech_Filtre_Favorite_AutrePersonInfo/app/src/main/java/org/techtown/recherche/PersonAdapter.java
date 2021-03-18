@@ -17,7 +17,7 @@ import java.util.ArrayList;
 public class PersonAdapter extends RecyclerView.Adapter<PersonAdapter.ViewHolder>{
 
     ArrayList<Person> items = new ArrayList<Person>();
-    public OnBindCallback2 onBind;
+    public PersonAdapterOnBindCallback onBind;
 
     @NonNull
     @Override

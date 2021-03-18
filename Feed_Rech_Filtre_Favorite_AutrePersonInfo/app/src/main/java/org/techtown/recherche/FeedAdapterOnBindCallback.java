@@ -1,6 +1,6 @@
 package org.techtown.recherche;
 
-public interface OnBindCallback {
+public interface FeedAdapterOnBindCallback {
     void onViewBound(FeedAdapter.ViewHolder holder, int position);
 
 }

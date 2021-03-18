@@ -4,11 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.content.ComponentName;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
 
 import org.techtown.myapplication2.R;
@@ -33,11 +31,10 @@ import org.techtown.myapplication2.R;
             adapter = new FeedAdapter();
 
             adapter.addItem(new Feed("Hellen", "Mais quelle belle journée!"));
-            adapter.addItem(new Feed("Lee", "J'en peux plus de l'école! ZUT!"));
+            adapter.addItem(new Feed("Lee", "J'aime l'école!"));
             adapter.addItem(new Feed("Sara", "Je pense donc je suis"));
             adapter.addItem(new Feed("Romeo", "Omae wa mou shindeiru"));
-            adapter.addItem(new Feed("Romeo", "skd"));
-            adapter.addItem(new Feed("Romeo", "skd"));
+
 
 
 

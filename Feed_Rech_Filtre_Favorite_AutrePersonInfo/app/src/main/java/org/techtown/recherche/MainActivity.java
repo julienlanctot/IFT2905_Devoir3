@@ -2,6 +2,8 @@ package org.techtown.recherche;
 
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Patterns;
@@ -54,6 +56,9 @@ public class MainActivity extends AppCompatActivity {
                 if (test.get(username).equals(password)) {
                     result.setVisibility(View.VISIBLE);
                     result.setText(getResources().getString(R.string.Succes));
+
+                    Intent intent = new Intent(MainActivity.this, FeedActivity.class);
+                    MainActivity.this.startActivityForResult(intent, 102);
                 }
                 else{
                     result.setVisibility(View.VISIBLE);

@@ -1,10 +1,8 @@
 package org.techtown.recherche;
 
-import android.content.ComponentName;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -32,8 +30,8 @@ public class FriendActivity extends AppCompatActivity {
         recyclerView6.setLayoutManager(layoutManager);
         adapter = new FriendAdapter();
 
-        adapter.addItem(new Friend("Hellen", "xx"));
-        adapter.addItem(new Friend("Romeo", "skd"));
+        adapter.addItem(new Friend("Hellen", "Hi"));
+        adapter.addItem(new Friend("Romeo", "Bye"));
 
 
         recyclerView6.setAdapter(adapter);
@@ -62,6 +60,16 @@ public class FriendActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(FriendActivity.this, FeedActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(intent);
+            }
+        });
+
+        ImageButton btnChat = findViewById(R.id.btnChat);
+        btnChat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(FriendActivity.this, MessageList.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 startActivity(intent);
             }

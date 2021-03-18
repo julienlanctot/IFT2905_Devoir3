@@ -15,7 +15,7 @@ import java.util.ArrayList;
 public class FriendAdapter extends RecyclerView.Adapter<FriendAdapter.ViewHolder> {
 
     ArrayList<Friend> items = new ArrayList<Friend>();
-    public OnBindCallback3 onBind;
+    public FriendAdapterOnBindCallback onBind;
 
     @NonNull
     @Override

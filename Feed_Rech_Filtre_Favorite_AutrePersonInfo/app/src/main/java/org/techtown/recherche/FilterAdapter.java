@@ -18,7 +18,7 @@ import java.util.ArrayList;
 public class FilterAdapter extends RecyclerView.Adapter<FilterAdapter.ViewHolder>{
 
     ArrayList<Filter> items = new ArrayList<Filter>();
-    OnBindCallback4 onBind;
+    FilterAdapterOnBindCallback onBind;
 
     @NonNull
     @Override

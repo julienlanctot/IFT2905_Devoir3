@@ -1,5 +1,5 @@
 package org.techtown.recherche;
 
-public interface OnBindCallback3 {
+public interface FriendAdapterOnBindCallback {
     void onViewBound3(FriendAdapter.ViewHolder holder, int position);
 }

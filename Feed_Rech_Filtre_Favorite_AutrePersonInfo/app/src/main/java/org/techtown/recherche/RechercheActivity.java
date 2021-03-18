@@ -32,8 +32,8 @@ public class RechercheActivity extends AppCompatActivity {
         recyclerView3.setLayoutManager(layoutManager);
         adapter = new PersonAdapter();
 
-        adapter.addItem(new Person("Hellen", "xx"));
-        adapter.addItem(new Person("Romeo", "skd"));
+        adapter.addItem(new Person("Hellen", "Hi"));
+        adapter.addItem(new Person("Romeo", "Bye"));
 
 
         recyclerView3.setAdapter(adapter);

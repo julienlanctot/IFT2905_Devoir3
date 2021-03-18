@@ -3,18 +3,12 @@ package org.techtown.recherche;
 //Filtre
 
 
-import android.app.Activity;
-import android.content.ComponentName;
-import android.content.Context;
-import android.content.Intent;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageButton;
 import android.widget.TextView;
-
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
 import org.techtown.myapplication2.R;
@@ -24,7 +18,7 @@ import java.util.ArrayList;
 public class FeedAdapter extends RecyclerView.Adapter<FeedAdapter.ViewHolder>{
 
     ArrayList<Feed> items = new ArrayList<Feed>();
-    public OnBindCallback onBind;
+    public FeedAdapterOnBindCallback onBind;
 
 
     @NonNull
