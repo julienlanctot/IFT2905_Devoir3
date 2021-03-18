@@ -70,6 +70,15 @@ public class RechercheActivity extends AppCompatActivity {
             }
         });
 
+        ImageButton btnChat = findViewById(R.id.btnChat);
+        btnChat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(RechercheActivity.this, MessageList.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(intent);
+            }
+        });
         adapter.onBind = (viewHolder, position) -> {
             viewHolder.itemView.setOnClickListener(new View.OnClickListener() {
                 @Override

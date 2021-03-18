@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/message_view"
+    android:background="@color/lightgray"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/message_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:visibility="visible"
+        android:layout_marginLeft="-10dp"
+        tools:srcCompat="@drawable/profile" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_weight="5"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:layout_alignParentTop="true"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/lastText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:layout_centerVertical="true"
+            android:maxLength="30"
+            android:text="lastText" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_alignParentBottom= "true"
+            android:layout_height="15dp"
+            android:text="Date" />
+    </RelativeLayout>
+
+</LinearLayout>

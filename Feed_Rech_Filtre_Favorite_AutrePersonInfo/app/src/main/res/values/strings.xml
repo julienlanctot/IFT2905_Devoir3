@@ -15,11 +15,18 @@
     <string name="send">Envoyer</string>
     <string name="type_to_search">Tapez ce que vous cherchez&#8230;</string>
     <string name="search">Recherche</string>
-    <string name="friend_request">Demande d'ami</string>
+    <string name="friend_request">Demande d\'ami</string>
     <string name="profile">Profil</string>
     <string name="contact_list">Liste de contacts : </string>
     <string name="interests">Intérêts : </string>
     <string name="cours">Cours</string>
     <string name="about">À propos de moi</string>
     <string name="send_dm">Envoyer un message privé</string>
+
+
+    <string name="message1">Bonjour</string>
+    <string name="message2">Bonjour</string>
+    <string name="message3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare ac nisi at vehicula. Duis posuere eros a libero consectetur laoreet vitae aliquam tellus. Duis ut malesuada elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare ac nisi at vehicula. Duis posuere eros a libero consectetur laoreet vitae aliquam tellus. Duis ut malesuada elit.</string>
+    <string name="message4">Nulla facilisi. Ut placerat augue lacus, sit amet vulputate justo elementum ut. </string>
+    <string name="envoyer">Envoyer</string>
 </resources>
