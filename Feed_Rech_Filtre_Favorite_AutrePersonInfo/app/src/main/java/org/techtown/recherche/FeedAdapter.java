@@ -20,7 +20,6 @@ public class FeedAdapter extends RecyclerView.Adapter<FeedAdapter.ViewHolder>{
     ArrayList<Feed> items = new ArrayList<Feed>();
     public FeedAdapterOnBindCallback onBind;
 
-
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int viewType) {
@@ -36,7 +35,6 @@ public class FeedAdapter extends RecyclerView.Adapter<FeedAdapter.ViewHolder>{
         if(onBind != null){
             onBind.onViewBound(viewHolder, position);
         }
-
     }
 
 
@@ -54,12 +52,7 @@ public class FeedAdapter extends RecyclerView.Adapter<FeedAdapter.ViewHolder>{
 
             textView = itemView.findViewById(R.id.textView);
             textView2 = itemView.findViewById(R.id.textMessage1);
-
-
-
         }
-
-
 
         public void setItem(Feed item){
             textView.setText(item.getName());

@@ -41,7 +41,6 @@ public class MainActivity extends AppCompatActivity {
         result = findViewById(R.id.result);
         inscription = findViewById(R.id.inscription);
 
-
         connexion.setOnClickListener(connexion_listener);
         inscription.setOnClickListener(inscription_listener);
     }
@@ -72,7 +71,6 @@ public class MainActivity extends AppCompatActivity {
         }
     };
 
-
     View.OnClickListener inscription_listener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
@@ -96,13 +94,13 @@ public class MainActivity extends AppCompatActivity {
             {
                 result_inscription.setVisibility(View.VISIBLE);
                 result_inscription.setTextColor(getResources().getColor(R.color.red));
-                result_inscription.setText("Format d'email invalide");
+                result_inscription.setText(getResources().getString(R.string.not_valid_email));
             }
             else if(!password_inscription.getText().toString().equals(confirm_password.getText().toString()))
             {
                 result_inscription.setVisibility(View.VISIBLE);
                 result_inscription.setTextColor(getResources().getColor(R.color.red));
-                result_inscription.setText("Les 2 mots de passe doivent être identiques");
+                result_inscription.setText(getResources().getString(R.string.pass_must_identical));
             }
             else{
                 setContentView(R.layout.inscription_interets);

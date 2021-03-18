@@ -36,7 +36,6 @@ public class PersonAdapter extends RecyclerView.Adapter<PersonAdapter.ViewHolder
         }
     }
 
-
     @Override
     public int getItemCount() {
         return items.size();

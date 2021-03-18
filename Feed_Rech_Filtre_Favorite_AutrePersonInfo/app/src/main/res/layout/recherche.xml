@@ -52,7 +52,7 @@
             android:scaleType="fitCenter"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/_3f948216ff912389efec6bc9ffe761c" />
+            app:srcCompat="@drawable/tripledots" />
 
         <ImageButton
             android:id="@+id/btnBack"
@@ -113,7 +113,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/_8fb410b7f050340f2409302d88d6baa_jpeg" />
+            app:srcCompat="@drawable/udem" />
 
         <ImageView
             android:id="@+id/imageView3"

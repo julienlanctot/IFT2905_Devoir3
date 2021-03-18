@@ -22,7 +22,6 @@ import org.techtown.myapplication2.R;
             super.onCreate(savedInstanceState);
             setContentView(R.layout.feed);
 
-
             recyclerView5 = findViewById(R.id.recyclerView5);
 
             LinearLayoutManager layoutManager =
@@ -34,9 +33,6 @@ import org.techtown.myapplication2.R;
             adapter.addItem(new Feed("Lee", "J'aime l'école!"));
             adapter.addItem(new Feed("Sara", "Je pense donc je suis"));
             adapter.addItem(new Feed("Romeo", "Omae wa mou shindeiru"));
-
-
-
 
             recyclerView5.setAdapter(adapter);
             ImageButton btnSearch = findViewById(R.id.btnSearch2);

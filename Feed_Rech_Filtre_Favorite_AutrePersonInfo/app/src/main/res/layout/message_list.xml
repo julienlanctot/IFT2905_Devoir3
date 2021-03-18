@@ -21,7 +21,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/_8fb410b7f050340f2409302d88d6baa_jpeg" />
+            app:srcCompat="@drawable/udem" />
         <ImageButton
             android:id="@+id/btnBack"
             android:layout_width="40sp"

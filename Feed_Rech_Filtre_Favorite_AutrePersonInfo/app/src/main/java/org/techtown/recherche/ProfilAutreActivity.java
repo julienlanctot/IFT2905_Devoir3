@@ -15,7 +15,6 @@ public class ProfilAutreActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.profilautre);
 
-
         ImageButton btnBack = findViewById(R.id.btnBack8);
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -1,7 +1,5 @@
 package org.techtown.recherche;
 
-
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -20,16 +18,14 @@ public class MessageList extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.message_list);
-
         ListView view = findViewById(R.id.listview);
 
-        ArrayList<Messages> list = new ArrayList<>();
+        ArrayList<Messages> list = new ArrayList<>(); // List of messages
 
         list.add(new Messages("Pablo", getResources().getString(R.string.message3), "Il y a 5 min"));
         list.add(new Messages("Maya", getResources().getString(R.string.message4), "Hier à 3h00"));
 
         view.setAdapter(new customMessageAdapter(this,list));
-
 
         ImageButton btnSearch = findViewById(R.id.btnSearch);
         btnSearch.setOnClickListener(new View.OnClickListener() {

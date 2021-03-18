@@ -44,5 +44,7 @@
     <string name="Voscours">Vos cours</string>
     <string name="VosInterets">Vos intérêts</string>
     <string name="Suivant">Suivant</string>
+    <string name="pass_must_identical">Les 2 mots de passe doivent être identiques</string>
+    <string name="not_valid_email">Format d'email invalide</string>
 
 </resources>

@@ -13,7 +13,6 @@ import org.techtown.myapplication2.R;
 
 public class FriendActivity extends AppCompatActivity {
 
-
     RecyclerView recyclerView6;
     FriendAdapter adapter;
 
@@ -64,7 +63,6 @@ public class FriendActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
         ImageButton btnChat = findViewById(R.id.btnChat);
         btnChat.setOnClickListener(new View.OnClickListener() {
             @Override
