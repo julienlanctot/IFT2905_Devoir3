@@ -11,8 +11,6 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-
-
         <ImageButton
             android:id="@+id/imageButton"
             android:layout_width="100dp"
@@ -61,10 +59,10 @@
             android:scaleType="fitCenter"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:srcCompat="@drawable/iconfinder_message_misc_1276855" />
+            app:srcCompat="@drawable/iconfinder_message_misc_blue" />
 
         <ImageButton
-            android:id="@+id/btnFavorite3"
+            android:id="@+id/btnFavorite"
             android:layout_width="40sp"
             android:layout_height="40sp"
             android:layout_marginBottom="16dp"
@@ -86,7 +84,7 @@
             android:scaleType="fitCenter"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:srcCompat="@drawable/iconfinder_search_blue" />
+            app:srcCompat="@drawable/iconfinder_search_172546" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </LinearLayout>

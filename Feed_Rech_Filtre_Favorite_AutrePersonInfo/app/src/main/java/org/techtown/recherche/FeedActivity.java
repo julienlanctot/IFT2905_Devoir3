@@ -66,6 +66,15 @@ import org.techtown.myapplication2.R;
                 }
             });
 
+            ImageButton btnChat = findViewById(R.id.btnChat);
+            btnChat.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(FeedActivity.this, MessageList.class);
+                    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                    startActivity(intent);
+                }
+            });
 
             adapter.onBind = (viewHolder, position) -> {
                 viewHolder.itemView.setOnClickListener(new View.OnClickListener() {
