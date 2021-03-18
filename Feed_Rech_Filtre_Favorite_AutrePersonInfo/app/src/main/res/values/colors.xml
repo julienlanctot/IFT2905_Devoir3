@@ -9,5 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="lightgray">#D3D3D3</color>
     <color name="message_user_bg">#194EEC</color>
+    <color name="blue">#1569C7</color>
+    <color name="red">#FF0000</color>
 
 </resources>
