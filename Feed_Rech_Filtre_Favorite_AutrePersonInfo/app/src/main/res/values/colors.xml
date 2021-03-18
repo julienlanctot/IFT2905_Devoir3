@@ -11,5 +11,6 @@
     <color name="message_user_bg">#194EEC</color>
     <color name="blue">#1569C7</color>
     <color name="red">#FF0000</color>
+    <color name="textGray">#979797</color>
 
 </resources>

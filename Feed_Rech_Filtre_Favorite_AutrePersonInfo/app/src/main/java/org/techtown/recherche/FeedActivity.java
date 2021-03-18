@@ -23,13 +23,7 @@ import org.techtown.myapplication2.R;
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.feed);
-        /*
-        Intent intent = new Intent();
-        ComponentName name = new ComponentName(getApplicationContext(),
-                RechercheActivity.class);
-        intent.setComponent(name);
-        startActivityForResult(intent, 101);
-        */
+
 
             recyclerView5 = findViewById(R.id.recyclerView5);
 
