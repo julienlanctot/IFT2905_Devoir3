@@ -86,14 +86,6 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:text="@string/profile_btn3"/>
-
-            <Button
-                android:id="@+id/profile_btn4"
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:text="@string/profile_btn4"/>
-
         </LinearLayout>
     </ScrollView>
 
