@@ -43,6 +43,8 @@ public class MainActivity extends AppCompatActivity {
 
         connexion.setOnClickListener(connexion_listener);
         inscription.setOnClickListener(inscription_listener);
+
+
     }
 
     View.OnClickListener connexion_listener = new View.OnClickListener() {
@@ -56,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
                     result.setVisibility(View.VISIBLE);
                     result.setText(getResources().getString(R.string.Succes));
 
+                    finish();
                     Intent intent = new Intent(MainActivity.this, FeedActivity.class);
                     MainActivity.this.startActivityForResult(intent, 102);
                 }
@@ -83,6 +86,8 @@ public class MainActivity extends AppCompatActivity {
 
             confirm_inscription.setOnClickListener(inscription_confirm);
 
+
+
         }
     };
 
@@ -104,6 +109,15 @@ public class MainActivity extends AppCompatActivity {
             }
             else{
                 setContentView(R.layout.inscription_interets);
+                Button suivantBtn = (Button) findViewById(R.id.confirmerInscription);
+                suivantBtn.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        finish();
+                        Intent intent = new Intent(MainActivity.this, FeedActivity.class);
+                        MainActivity.this.startActivityForResult(intent, 102);
+                    }
+                });
             }
         }
     };

@@ -1,4 +1,5 @@
-package com.example.profil;
+package org.techtown.recherche;
+
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,14 +8,16 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Contacts extends AppCompatActivity {
+import org.techtown.myapplication2.R;
+
+public class Info_Perso extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_contacts);
+        setContentView(R.layout.activity_info__perso);
 
-        Button backBtn = (Button)findViewById(R.id.backBtnContact);
+        Button backBtn = (Button)findViewById(R.id.backBtnInfo);
 
 
         backBtn.setOnClickListener(new View.OnClickListener() {

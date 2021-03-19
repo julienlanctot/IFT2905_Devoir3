@@ -1,4 +1,5 @@
-package com.example.profil;
+package org.techtown.recherche;
+
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.ButtonBarLayout;
@@ -8,12 +9,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import org.techtown.myapplication2.R;
+
 public class ProfilActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.profile);
 
         Button infoPersoBtn = (Button)findViewById(R.id.infoBtn);
         Button notificationBtn = (Button)findViewById(R.id.notiBtn);

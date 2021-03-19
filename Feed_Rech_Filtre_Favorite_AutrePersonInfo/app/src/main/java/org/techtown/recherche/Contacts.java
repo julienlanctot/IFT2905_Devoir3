@@ -1,4 +1,4 @@
-package com.example.profil;
+package org.techtown.recherche;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,14 +7,16 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Notifications extends AppCompatActivity {
+import org.techtown.myapplication2.R;
+
+public class Contacts extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_notifications);
+        setContentView(R.layout.activity_contacts);
 
-        Button backBtn = (Button)findViewById(R.id.backBtnNoti);
+        Button backBtn = (Button)findViewById(R.id.backBtnContact);
 
 
         backBtn.setOnClickListener(new View.OnClickListener() {
@@ -26,5 +28,4 @@ public class Notifications extends AppCompatActivity {
             }
         });
     }
-
 }
