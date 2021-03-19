@@ -24,8 +24,7 @@ public class Info_Perso extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent startIntent = new Intent(getApplicationContext(), ProfilActivity.class);
-                startActivity(startIntent);
+                finish();
             }
         });
     }
