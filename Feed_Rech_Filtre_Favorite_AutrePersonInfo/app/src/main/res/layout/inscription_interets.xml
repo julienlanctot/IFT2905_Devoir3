@@ -91,7 +91,7 @@
         android:layout_marginBottom="24dp"
         android:background="@color/white"
         android:padding="5dp"
-        android:textColor="@android:color/white"
+        android:textColor="@android:color/black"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/interet_texte"
         app:layout_constraintEnd_toEndOf="parent"

@@ -45,6 +45,11 @@
     <string name="VosInterets">Vos intérêts</string>
     <string name="Suivant">Suivant</string>
     <string name="pass_must_identical">Les 2 mots de passe doivent être identiques</string>
-    <string name="not_valid_email">Format d'email invalide</string>
+    <string name="not_valid_email">Format demail invalide</string>
+    <string name="notification1">1 notification</string>
+    <string name="Notifications">Notifications</string>
+    <string name="accepter">Accepter</string>
+    <string name="Tom">Tom</string>
+    <string name="ignorer">Ignorer</string>
 
 </resources>
