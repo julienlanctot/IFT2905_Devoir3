@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import org.techtown.myapplication2.R;
 
@@ -17,13 +18,10 @@ public class Info_Perso extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_info__perso);
 
-        Button backBtn = (Button)findViewById(R.id.backBtnInfo);
-
-
+        ImageButton backBtn = findViewById(R.id.btnBackIP);
         backBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 finish();
             }
         });

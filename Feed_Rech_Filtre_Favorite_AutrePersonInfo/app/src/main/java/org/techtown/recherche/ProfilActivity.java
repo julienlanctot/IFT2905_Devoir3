@@ -20,9 +20,8 @@ public class ProfilActivity extends AppCompatActivity {
         setContentView(R.layout.profile);
 
         Button infoPersoBtn = (Button)findViewById(R.id.profile_btn1);
-        Button notificationBtn = (Button)findViewById(R.id.profile_btn2);
-        Button contactsBtn = (Button)findViewById(R.id.profile_btn3);
-        Button favBtn = (Button) findViewById(R.id.profile_btn4);
+        Button contactsBtn = (Button)findViewById(R.id.profile_btn2);
+        Button notificationBtn = (Button)findViewById(R.id.profile_btn3);
         ImageButton backBtn = (ImageButton) findViewById(R.id.btnBack);
 
         backBtn.setOnClickListener(new View.OnClickListener() {
@@ -53,7 +52,7 @@ public class ProfilActivity extends AppCompatActivity {
         notificationBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), Notifications.class);
+                Intent startIntent = new Intent(getApplicationContext(), Contacts.class);
                 startActivity(startIntent);
             }
         });

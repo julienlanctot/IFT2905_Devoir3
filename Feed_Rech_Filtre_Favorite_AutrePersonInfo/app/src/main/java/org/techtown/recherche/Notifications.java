@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import org.techtown.myapplication2.R;
 
@@ -15,9 +16,9 @@ public class Notifications extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_notifications);
+        setContentView(R.layout.notifications);
 
-        Button backBtn = (Button)findViewById(R.id.backBtnNoti);
+        ImageButton backBtn = findViewById(R.id.btnBacknotification);
 
 
         backBtn.setOnClickListener(new View.OnClickListener() {
