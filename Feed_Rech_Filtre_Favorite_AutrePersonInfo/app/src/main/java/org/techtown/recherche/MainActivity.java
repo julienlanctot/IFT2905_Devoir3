@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
     View.OnClickListener connexion_listener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            test.put("test", "test2");
+            test.put("jean.daniel@umontreal.ca", "test");
             String username = email_textview.getText().toString();
             String password = password_textview.getText().toString();
             if(test.containsKey("test")) {
