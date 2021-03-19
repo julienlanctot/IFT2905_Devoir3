@@ -29,6 +29,11 @@
     <string name="message3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare ac nisi at vehicula. Duis posuere eros a libero consectetur laoreet vitae aliquam tellus. Duis ut malesuada elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare ac nisi at vehicula. Duis posuere eros a libero consectetur laoreet vitae aliquam tellus. Duis ut malesuada elit.</string>
     <string name="message4">Nulla facilisi. Ut placerat augue lacus, sit amet vulputate justo elementum ut. </string>
     <string name="envoyer">Envoyer</string>
+    <string name="profile_name">Henri</string>
+    <string name="profile_btn1">Information personelles</string>
+    <string name="profile_btn2">Notifications</string>
+    <string name="profile_btn3">Liste de contacts</string>
+    <string name="profile_btn4">Favoris</string>
 
 
     <string name="email">Email</string>
@@ -45,11 +50,17 @@
     <string name="VosInterets">Vos intérêts</string>
     <string name="Suivant">Suivant</string>
     <string name="pass_must_identical">Les 2 mots de passe doivent être identiques</string>
+<<<<<<< HEAD
     <string name="not_valid_email">Format demail invalide</string>
     <string name="notification1">1 notification</string>
     <string name="Notifications">Notifications</string>
     <string name="accepter">Accepter</string>
     <string name="Tom">Tom</string>
     <string name="ignorer">Ignorer</string>
+=======
+    <string name="not_valid_email">Format d\'email invalide</string>
+    <string name="mettreajourIP">Mettre à jour</string>
+    <string name="textInfoPerso">Information Personnel</string>
+>>>>>>> master
 
 </resources>

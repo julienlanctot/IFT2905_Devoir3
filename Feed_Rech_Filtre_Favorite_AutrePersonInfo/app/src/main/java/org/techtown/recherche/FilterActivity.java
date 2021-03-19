@@ -35,16 +35,13 @@ public class FilterActivity extends AppCompatActivity {
         adapter.addItem(new Filter("Club"));
         adapter.addItem(new Filter("Personne"));
 
-
         recyclerView.setAdapter(adapter);
 
         ImageButton btnBack = findViewById(R.id.btnBack);
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 finish();
-
             }
         });
         Button applyFilter = findViewById(R.id.btnApplyFilter);
@@ -54,7 +51,6 @@ public class FilterActivity extends AppCompatActivity {
                 finish();
             }
         });
-
 
         adapter.onBind = (viewHolder, position) -> {
             viewHolder.itemView.setOnClickListener(new View.OnClickListener() {

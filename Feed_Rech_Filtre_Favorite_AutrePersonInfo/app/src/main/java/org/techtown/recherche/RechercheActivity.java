@@ -79,6 +79,16 @@ public class RechercheActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        ImageButton myProfile = findViewById(R.id.btnMyProfil);
+        myProfile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(RechercheActivity.this, ProfilActivity.class);
+                RechercheActivity.this.startActivityForResult(intent, 102);
+            }
+        });
+
         adapter.onBind = (viewHolder, position) -> {
             viewHolder.itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
