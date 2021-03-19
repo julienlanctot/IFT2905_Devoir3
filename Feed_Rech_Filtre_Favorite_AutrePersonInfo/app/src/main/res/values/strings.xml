@@ -61,6 +61,9 @@
     <string name="not_valid_email">Format d\'email invalide</string>
     <string name="mettreajourIP">Mettre à jour</string>
     <string name="textInfoPerso">Information Personnel</string>
->>>>>>> master
+    <string name="Contacts">Contacts</string>
+    <string name="contacts32">32 contacts</string>
+    <string name="contact1">1 contact</string>
+    >>>>>>> master
 
 </resources>
