@@ -72,5 +72,14 @@ public class FriendActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        ImageButton myProfile = findViewById(R.id.btnMyProfil);
+        myProfile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(FriendActivity.this, ProfilActivity.class);
+                FriendActivity.this.startActivityForResult(intent, 102);
+            }
+        });
     }
 }

@@ -44,6 +44,15 @@ import org.techtown.myapplication2.R;
                 }
             });
 
+            ImageButton btnprofile = findViewById(R.id.btnMyProfil);
+            btnprofile.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(FeedActivity.this, ProfilActivity.class);
+                    FeedActivity.this.startActivityForResult(intent, 102);
+                }
+            });
+
             ImageButton btnFavorite2 = findViewById(R.id.btnFavorite2);
             btnFavorite2.setOnClickListener(new View.OnClickListener() {
                 @Override
