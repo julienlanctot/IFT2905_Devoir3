@@ -51,5 +51,7 @@
     <string name="Suivant">Suivant</string>
     <string name="pass_must_identical">Les 2 mots de passe doivent être identiques</string>
     <string name="not_valid_email">Format d\'email invalide</string>
+    <string name="mettreajourIP">Mettre à jour</string>
+    <string name="textInfoPerso">Information Personnel</string>
 
 </resources>
